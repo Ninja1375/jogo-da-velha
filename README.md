@@ -38,6 +38,8 @@ Este é um jogo da velha desenvolvido em HTML, CSS e JavaScript, que permite jog
 
 ## 🎨 **Preview do Design**
 
+![jogo-da-velha](https://github.com/user-attachments/assets/db141954-48fe-4b60-ad1c-a67432a31cc0)
+
 ## 📜 Licença
 
 Este projeto é de código aberto e está disponível sob a licença MIT.
