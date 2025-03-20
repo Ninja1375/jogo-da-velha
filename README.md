@@ -9,7 +9,7 @@ Este é um jogo da velha desenvolvido em HTML, CSS e JavaScript, que permite jog
   - **Fácil**: Escolhe movimentos aleatórios.
   - **Médio**: Tenta vencer ou bloquear o jogador.
   - **Difícil**: Usa o algoritmo Minimax para garantir que nunca perca.
-- 🔄 **Botão de Reinício**: Permite reiniciar a partida a qualquer momento.
+- 🔄 **Botão de Reinício**: Permite reiniciar a partida no final do jogo.
 
 ## 📂 Estrutura do Projeto
 
@@ -24,7 +24,7 @@ Este é um jogo da velha desenvolvido em HTML, CSS e JavaScript, que permite jog
 
 1. Faça o clone do repositório:
    ```sh
-   git clone https://github.com/seu-usuario/jogo-da-velha.git
+   git clone https://github.com/Ninja1375/jogo-da-velha.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
@@ -42,4 +42,4 @@ Este projeto é de código aberto e está disponível sob a licença MIT.
 
 ---
 
-Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario).
+Feito com ❤️ por [Antônio Nascimento](https://github.com/Ninja1375).
