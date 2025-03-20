@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.select-container {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    border-color: #00bcd4;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 8px;
+    justify-content: center;
+    margin: 20px auto;
+    background: #121212;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #2e7d32;
+    border: 2px solid #1b5e20;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.cell:hover {
+    background: #388e3c;
+}
+
+.animated {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+#status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+#restart {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+#restart:hover {
+    background: #0097a7;
+}
+
+@media (max-width: 500px) {
+    #board {
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(3, 80px);
+    }
+    
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 28px;
+    }
+}

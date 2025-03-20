@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="controls">
+            <select id="gameMode">
+                <option value="player">2 Jogadores</option>
+                <option value="bot" selected>Jogar com Robô</option>
+            </select>
+            <select id="difficulty" disabled>
+                <option value="1">Fácil</option>
+                <option value="2" selected>Médio</option>
+                <option value="3">Difícil</option>
+            </select>
+        </div>
+        <div id="board"></div>
+        <div id="status">Vez do jogador X</div>
+        <button id="restart" style="display: none;">Reiniciar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
