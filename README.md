@@ -42,7 +42,7 @@ Este é um jogo da velha desenvolvido em HTML, CSS e JavaScript, que permite jog
 
 ## 📜 Licença
 
-Este projeto é de código aberto e está disponível sob a licença MIT.
+Este projeto é de código aberto e está disponível sob a licença **[MIT](https://github.com/Ninja1375/jogo-da-velha/blob/main/LICENSE).**
 
 ---
 
