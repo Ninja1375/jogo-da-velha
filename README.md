@@ -46,4 +46,4 @@ Este projeto é de código aberto e está disponível sob a licença **[MIT](htt
 
 ---
 
-Feito com ❤️ por [Antônio Nascimento](https://github.com/Ninja1375).
+Feito com ❤️ por [Antônio Nascimento](https://portfolio-antonio-nascimento.netlify.app/).
